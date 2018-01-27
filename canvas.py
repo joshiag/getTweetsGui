@@ -1,3 +1,5 @@
+#canvas class for displaying graphs
+
 from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg as FigureCanvas 
 import matplotlib.pyplot as plt
 
