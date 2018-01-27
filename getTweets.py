@@ -25,13 +25,9 @@ class getTweets(QtGui.QMainWindow,form_class):
         self.aboutButton.clicked.connect(self.showMe)
 
     def showMe(self):
-        msg = QMessageBox()
-        msg.setIcon(QMessageBox.Information)
-        msg.setText("message box")
-        msg.setInformativeText("get tweets and draw")
-        msg.setWindowTitle("MessageBox")
-        # msg.setDetailedText("The details are as follows:")
-        msg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
+        w = QWidget()
+        msg = QMessageBox.information(w,"message", "Utility for fetching tweets from twitter using GUI")
+        w.show()
 
     def precall(self):
         self.name = self.NameOfFirst.text()
