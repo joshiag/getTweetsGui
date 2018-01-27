@@ -1,6 +1,6 @@
 # getTweetsGui
 
-This utility is developed to learn how to use Python 2.7, PyQt4, pandas, tweepy for getting tweets from twitter and use GUI to get tweets and draw graphs on the canvas.
+This basic utility is developed to learn how to use Python 2.7, PyQt4, pandas, tweepy for getting tweets from twitter and use GUI to get tweets and draw graphs on the canvas.
 
  usage: python getTwees.py
  
