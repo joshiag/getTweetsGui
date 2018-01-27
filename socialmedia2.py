@@ -10,10 +10,11 @@ import pandas as pd
 
 def twitter_strm(x,y):
 
-    consumer_key = 'n7Dgt6OqBBG9Mq07eVxQIVTl1'
-    consumer_secret = 'IcmNCzQRbVlkb0g2ZKPUWCoxUnPNW08vcQ9ANRS06zBToE1ejG'
-    access_token = '896952129687920640-Qhs0qiueDkW82QnyshgNQmilHdRCWDm'
-    access_secret = 'za1MxgR0hOFqHaAbugXKN5XUMMlGShINKgZX8BsWxc3Wj'
+    #add your keys here
+    consumer_key = ''
+    consumer_secret = ''
+    access_token = ''
+    access_secret = ''
 
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_secret)
